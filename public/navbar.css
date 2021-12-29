@@ -1,0 +1,12 @@
+.nav{
+  list-style-type: none;
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+  right: 0;
+}
+
+.nav>li{
+    display: inline-block;
+    margin: 10px;
+  }
