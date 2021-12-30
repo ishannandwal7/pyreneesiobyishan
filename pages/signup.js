@@ -26,16 +26,16 @@ export default function Signuppage () {
         // console.log(ans,"ans value");
         location.replace("/emailvalidation")
 
-        if(ans.status==="emailsend"){
+//         if(ans.status==="emailsend"){
 
-            location.replace("/emailvalidation")
-            // router.push('/emailvalidation')
-     }
-     else{
-         location.replace("/oops");
-        //  router.push('/oops')
+//             location.replace("/emailvalidation")
+//             // router.push('/emailvalidation')
+//      }
+//      else{
+//          location.replace("/oops");
+//         //  router.push('/oops')
 
-     }
+//      }
         // async function senddata() {
              
             
