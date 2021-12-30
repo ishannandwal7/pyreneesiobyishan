@@ -1,5 +1,5 @@
 
-export default function (params) {
+export default function Errorpage () {
     return<>
     <div className="error-page bg-gray-800 text-gray-50 ">
         <h1 className="text-red-800">404 ERROR.</h1>

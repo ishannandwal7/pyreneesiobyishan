@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 import jwt from "jsonwebtoken";
 
 import Head from "next/head"
-export default function () {
+export default function Searchpage () {
     const [username, setusername] = useState("");
     const [ans, setans] = useState(null);
 

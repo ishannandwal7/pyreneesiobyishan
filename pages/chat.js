@@ -7,7 +7,7 @@ import {io} from "socket.io-client";
 import {format} from "timeago.js"
 
 
-export default function () {
+export default function Chatpage () {
   const [allconnections, setallconnections] = useState([]);
   const [currentchat, setcurrentchat] = useState(null);
   const [currentconversationID, setcurrentconversationID] = useState(null);

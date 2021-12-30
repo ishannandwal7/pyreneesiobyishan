@@ -3,7 +3,7 @@ import {useState} from "react"
 import Navbar from "../components/navbar";
 import Link from "next/link";
 import Head from "next/head"
-export default function () {
+export default function Loginpage () {
     const router=useRouter();
     const [username, setusername] = useState("");
     // const [email, setemail] = useState("");

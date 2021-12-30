@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../components/navbar";
 import Head from "next/head"
 
-export default function () {
+export default function Emailvalidationpage () {
     const [string, setstring] = useState("");
     async function emailver(e) {
         e.preventDefault();

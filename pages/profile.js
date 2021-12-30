@@ -3,7 +3,7 @@ import { useEffect ,useState} from "react";
 import Head from "next/head"                        
 import Navbar from "../components/navbar";
 
-export default function () {
+export default function Profilepage () {
     const [raw, setraw] = useState({})
     const [loading, setloading] = useState(true);
 
@@ -39,10 +39,10 @@ export default function () {
                 <link rel="stylesheet" href="testing.css" />
                 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-                
+{/*                 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> */}
     <title className="capitalize">Profile</title>
 
     
@@ -60,7 +60,10 @@ export default function () {
 							<div className="col-md-6">
 								<div className="form-group">
 								  	<label>Username</label>
-								  	<input type="text" className="form-control" value={raw.username} />
+                                      <h3>
+                                          {raw.username}
+                                      </h3>
+								  	{/* <input type="text" className="form-control" value={raw.username} /> */}
 								</div>
 							</div>
 
@@ -72,7 +75,10 @@ export default function () {
 							<div className="col-md-6">
 								<div className="form-group">
 								  	<label>Email</label>
-								  	<input type="text" className="form-control" value={raw.email} />
+                                      <h3>
+                                          {raw.email}
+                                      </h3>
+								  	{/* <input type="text" className="form-control" value={raw.email} /> */}
 								</div>
 							</div>
 

@@ -3,7 +3,7 @@ import Ishan from "../components/testing";
 import { useRouter } from "next/dist/client/router";
 // import "../components/navscr";
 
-export default function () {
+export default function Indexpage () {
   const router=useRouter();
   const [loading, setloading] = useState(true);
   useEffect(() => {

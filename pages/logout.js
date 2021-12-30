@@ -1,5 +1,5 @@
 import {useEffect} from "react";
-export default function () {
+export default function Logoutpage () {
     useEffect(() => {
        localStorage.removeItem("token");
        location.replace("/")
