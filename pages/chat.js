@@ -129,7 +129,7 @@ const corsolved=", {transports: ['websocket', 'polling', 'flashsocket']}";
 	socket.current.emit("add",raw.username);
 	console.log(raw.username+" is online");
 	socket.current.on("getusers",user=>{setonline(user);console.log(user,"usr receiver from server")});
-	console.log("online users received")
+	// console.log("online users received")
 	
     async function getconnections() {
 		let x= await fetch("/api/findconnections",{
@@ -191,7 +191,7 @@ const corsolved=", {transports: ['websocket', 'polling', 'flashsocket']}";
 				allconnections.map((curele,key)=>{
 					// console.log(key,"key value")
 					socket.current.on("message",msg=>{
-						console.log(msg,"message received from socket server");
+						// console.log(msg,"message received from socket server");
 						getmessage();
 					})
 					return (
@@ -203,7 +203,7 @@ const corsolved=", {transports: ['websocket', 'polling', 'flashsocket']}";
 							setcurrentconversationID(curele._id)
 							}}>
 							
-				<img src="/images/usericon.png" classname="icon_user" width="55px" height="55px" alt=""/>
+				<img src="/images/usericon.png" className="icon_user" width="55px" height="55px" alt=""/>
 				<div>
 				{
 				curele.members[0]===loggedinuser.username?
