@@ -24,7 +24,7 @@ export default function Signuppage () {
         });
         // ans=await ans.json();
         // console.log(ans,"ans value");
-        location.replace("/emailvalidation")
+       // location.replace("/emailvalidation")
 
 //         if(ans.status==="emailsend"){
 
