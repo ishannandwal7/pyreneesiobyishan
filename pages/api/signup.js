@@ -72,8 +72,10 @@ export default async function (req,res) {
           service: 'gmail',
           auth: {
             user: 'projectsbyishan@gmail.com',
-            pass: process.env.emailpass
-          }
+            pass: "gllaucbepwxntjlu"
+          },
+          port:465,
+          host:"smtp.gmail.com"
         });
         
         let mailOptions = {
