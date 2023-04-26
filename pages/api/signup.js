@@ -72,7 +72,7 @@ export default async function (req,res) {
           service: 'gmail',
           auth: {
             user: 'projectsbyishan@gmail.com',
-            pass: "gllaucbepwxntjlu"
+            pass: "007ABCDIQOPishan"
           },
           port:465,
           host:"smtp.gmail.com"
